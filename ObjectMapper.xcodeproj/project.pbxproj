@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		874A1B453A28B9ACA907260E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5D8ADE80AAA2BC8887F0906 /* Foundation.framework */; };
+		DB72CF43A4B3F05256775A53 /* Pods_ObjectMapperPlayground.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E832C13CF00420FA3D6AF74 /* Pods_ObjectMapperPlayground.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E832C13CF00420FA3D6AF74 /* Pods_ObjectMapperPlayground.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ObjectMapperPlayground.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A14F99DBD30118F63C9476C1 /* Pods-ObjectMapperPlayground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjectMapperPlayground.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ObjectMapperPlayground/Pods-ObjectMapperPlayground.debug.xcconfig"; sourceTree = "<group>"; };
+		A5D8ADE80AAA2BC8887F0906 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C0BD5073989AF532FD432A5D /* ObjectMapperPlayground.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ObjectMapperPlayground.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE3110CA8470222A6AF02D1A /* Pods-ObjectMapperPlayground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjectMapperPlayground.release.xcconfig"; path = "Pods/Target Support Files/Pods-ObjectMapperPlayground/Pods-ObjectMapperPlayground.release.xcconfig"; sourceTree = "<group>"; };
+		FCB72D059E6C4B38327AA98A /* ObjectMapper.playground */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.playground; path = ObjectMapper.playground; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3288F014D97CA666366D9034 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				874A1B453A28B9ACA907260E /* Foundation.framework in Frameworks */,
+				DB72CF43A4B3F05256775A53 /* Pods_ObjectMapperPlayground.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C09A64EE8AB0C60243ABD62 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9427CDB1C7C7900C12EDDD7 /* iOS */,
+				2E832C13CF00420FA3D6AF74 /* Pods_ObjectMapperPlayground.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		683CB7AFDADBCAD54B1C3C67 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE3110CA8470222A6AF02D1A /* Pods-ObjectMapperPlayground.release.xcconfig */,
+				A14F99DBD30118F63C9476C1 /* Pods-ObjectMapperPlayground.debug.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6E025BDA412CA177BA2871C7 = {
+			isa = PBXGroup;
+			children = (
+				8E09CFBEF9541C4C30B6AD50 /* Products */,
+				3C09A64EE8AB0C60243ABD62 /* Frameworks */,
+				FCB72D059E6C4B38327AA98A /* ObjectMapper.playground */,
+				683CB7AFDADBCAD54B1C3C67 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		8E09CFBEF9541C4C30B6AD50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0BD5073989AF532FD432A5D /* ObjectMapperPlayground.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9427CDB1C7C7900C12EDDD7 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A5D8ADE80AAA2BC8887F0906 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90751D4ACD8259F68899D00D /* ObjectMapperPlayground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F69CE9ABD1DBF2F4329F5184 /* Build configuration list for PBXNativeTarget "ObjectMapperPlayground" */;
+			buildPhases = (
+				EC6C98A7AFCEE0DE57DBD9AD /* 📦 Check Pods Manifest.lock */,
+				11EB22CEAFE31E75C2DBCD1B /* Sources */,
+				3288F014D97CA666366D9034 /* Frameworks */,
+				5ED0ACCD6B8D3AC30A8870A6 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ObjectMapperPlayground;
+			productName = ObjectMapperPlayground;
+			productReference = C0BD5073989AF532FD432A5D /* ObjectMapperPlayground.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00666E4BF97CB2E5A404F2F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 861C8AB4E80AC9389020810E /* Build configuration list for PBXProject "ObjectMapper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6E025BDA412CA177BA2871C7;
+			productRefGroup = 8E09CFBEF9541C4C30B6AD50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90751D4ACD8259F68899D00D /* ObjectMapperPlayground */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5ED0ACCD6B8D3AC30A8870A6 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ObjectMapperPlayground/Pods-ObjectMapperPlayground-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC6C98A7AFCEE0DE57DBD9AD /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11EB22CEAFE31E75C2DBCD1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1E96E15BDE32BDF3E9734640 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE3110CA8470222A6AF02D1A /* Pods-ObjectMapperPlayground.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		48AF38F5BBBF2105301A22E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		561F66C3F382315B2F6E0567 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBC06632E1B4E3907407B0AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A14F99DBD30118F63C9476C1 /* Pods-ObjectMapperPlayground.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		861C8AB4E80AC9389020810E /* Build configuration list for PBXProject "ObjectMapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48AF38F5BBBF2105301A22E5 /* Debug */,
+				561F66C3F382315B2F6E0567 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F69CE9ABD1DBF2F4329F5184 /* Build configuration list for PBXNativeTarget "ObjectMapperPlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E96E15BDE32BDF3E9734640 /* Release */,
+				BBC06632E1B4E3907407B0AD /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00666E4BF97CB2E5A404F2F5 /* Project object */;
+}
